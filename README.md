@@ -1,10 +1,10 @@
 # aidvice
 <img align="left" src="https://raw.githubusercontent.com/aidvice/app/master/assets/logo.png" data-canonical-src="https://raw.githubusercontent.com/aidvice/app/master/assets/logo.png" width="40" height="40"/>   ![Android and iOS build on MacOS](https://github.com/tripleblindmarket/private-kit/workflows/Android%20and%20iOS%20build%20on%20MacOS/badge.svg)
 
-Pandemics prevention with big-data and data-science
+Pandemics prevention with big-data and data-science. 
 This application uses advanced location data collection to promote pandemic control, we have identified places that infected people have previously visited to alert you about the necessary measures for each type of virus, along with the WHO recommendation for preventing it.
 
-Data are shared with government agencies that use them to develop containment strategies aimed at improving population well-being
+Data is shared with government agencies that use them to develop containment strategies aimed at improving population well-being
 
 ----
 
