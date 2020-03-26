@@ -8,7 +8,7 @@ Data are shared with government agencies that use them to develop containment st
 
 ----
 
-<img align="right" src="https://github.com/aidvice/app/blob/master/assets/screen.png?raw=true" data-canonical-src="https://github.com/aidvice/app/blob/master/assets/screen.png?raw=true"/>
+<img align="right" src="./assets/badge.svg" data-canonical-src="./assets/badge.svg"/>
 
 We use native device technologies and data science to create popular disease and pandemic containment instructions, along with diagnostic options, first aid support and reliable sources of information.
 
