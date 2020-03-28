@@ -1,6 +1,12 @@
 import Geolocation from '@react-native-community/geolocation';
 import PermissionsAndroid, { Platform } from 'react-native';
 
+export async function getLocation() {
+  return Platform.OS === 'ios'
+    ? await getUserLocationIOS()
+    : await getUserLocationAndroid();
+}
+
 const getUserLocationAndroid = () => new Promise((res, rej) => {
   PermissionsAndroid.request(
     PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
@@ -27,9 +33,3 @@ const getUserLocationIOS = () => new Promise((res, rej) => {
     timeout: 20000,
   });
 });
-
-export function getLocation() {
-  return Platform.OS === 'ios'
-    ? getUserLocationIOS()
-    : getUserLocationAndroid();
-}

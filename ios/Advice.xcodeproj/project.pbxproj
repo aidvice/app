@@ -44,7 +44,7 @@
 		00E356EE1AD99517003FC87E /* AdviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AdviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdviceTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Advice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Advice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Aidvice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aidvice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Advice/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Advice/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -134,7 +134,6 @@
 				866022C014E809073AA8952B /* Pods-Advice-tvOSTests.debug.xcconfig */,
 				71383F9EC3AFA6CC1A2C5177 /* Pods-Advice-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -190,7 +189,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Advice.app */,
+				13B07F961A680F5B00A75B9A /* Aidvice.app */,
 				00E356EE1AD99517003FC87E /* AdviceTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* Advice-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* Advice-tvOSTests.xctest */,
@@ -237,7 +236,7 @@
 			);
 			name = Advice;
 			productName = Advice;
-			productReference = 13B07F961A680F5B00A75B9A /* Advice.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Aidvice.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D02E47A1E0B4A5D006451C7 /* Advice-tvOS */ = {
@@ -643,7 +642,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Advice;
+				PRODUCT_NAME = Aidvice;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -665,7 +664,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Advice;
+				PRODUCT_NAME = Aidvice;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
