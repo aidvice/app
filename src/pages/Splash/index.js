@@ -8,7 +8,7 @@ export default function Splash() {
 
   useEffect(() => {
     setTimeout(() => {
-      navigation.navigate('Main');
+      navigation.navigate('YourMobilePhone');
     }, 2000);
   }, []);
 
